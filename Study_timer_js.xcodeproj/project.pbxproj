@@ -49,6 +49,7 @@
 		6558AEA825D2EBAC008AF75E /* Study_timer_jsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Study_timer_jsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6558AEAC25D2EBAC008AF75E /* Study_timer_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_timer_jsUITests.swift; sourceTree = "<group>"; };
 		6558AEAE25D2EBAC008AF75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6558AEBD25D2EBB2008AF75E /* Study_timer_js.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Study_timer_js.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		6558AE8925D2EBAB008AF75E /* Study_timer_js */ = {
 			isa = PBXGroup;
 			children = (
+				6558AEBD25D2EBB2008AF75E /* Study_timer_js.entitlements */,
 				6558AE8A25D2EBAB008AF75E /* AppDelegate.swift */,
 				6558AE8C25D2EBAB008AF75E /* SceneDelegate.swift */,
 				6558AE8E25D2EBAB008AF75E /* ViewController.swift */,
@@ -436,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Study_timer_js/Study_timer_js.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Study_timer_js/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +447,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Junseok.Study-timer-js";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Study_timer_js/Study_timer_js.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Study_timer_js/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +467,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Junseok.Study-timer-js";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
