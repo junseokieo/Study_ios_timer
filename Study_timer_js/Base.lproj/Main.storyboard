@@ -88,10 +88,13 @@
                                             <constraint firstAttribute="height" constant="40" id="4rN-Xi-BCD"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="j2W-Gq-hGc"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="RE START">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="Button_Restart_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Fw-9q-JdZ"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ahq-XC-TRJ">
                                         <rect key="frame" x="4" y="425" width="268" height="48"/>
@@ -103,10 +106,13 @@
                                                     <constraint firstAttribute="height" constant="40" id="ags-S6-ge0"/>
                                                     <constraint firstAttribute="width" constant="100" id="eJn-JY-nLZ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="START">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="Button_Start_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pQw-LH-E0P"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEM-Gl-x7M">
                                                 <rect key="frame" x="164" y="4" width="100" height="40"/>
@@ -115,10 +121,13 @@
                                                     <constraint firstAttribute="width" constant="100" id="9wH-8X-8vl"/>
                                                     <constraint firstAttribute="height" constant="40" id="Doj-1M-Vp5"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="STOP">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="Button_Stop_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EQG-bY-WUI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -150,6 +159,9 @@
                                                 <state key="normal" title="RESET">
                                                     <color key="titleColor" name="Text_Color"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="Button_Reset_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ttL-At-WCn"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tum-dJ-LiF">
                                                 <rect key="frame" x="164" y="4" width="100" height="40"/>
@@ -161,6 +173,9 @@
                                                 <state key="normal" title="TIME SET">
                                                     <color key="titleColor" name="Text_Color"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="Button_Timeset_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2rY-FX-PT0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -210,10 +225,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VJF-8V-Wwh"/>
+                    <connections>
+                        <outlet property="Button_Restart_Outlet" destination="ClQ-g9-mw8" id="Jer-1v-iHe"/>
+                        <outlet property="Button_Start_Outlet" destination="fbX-Wp-c7Y" id="vwq-8f-sDt"/>
+                        <outlet property="Button_Stop_Outlet" destination="BEM-Gl-x7M" id="3vU-wm-OqP"/>
+                        <outlet property="Focus_percent" destination="azj-VN-Up6" id="azA-zb-t3m"/>
+                        <outlet property="Label_alltime" destination="zr9-ym-2XL" id="8Ly-7J-nub"/>
+                        <outlet property="Label_stackedTime" destination="ih1-kF-gR1" id="cDQ-KV-UmX"/>
+                        <outlet property="Label_timer" destination="HtK-XD-K7p" id="zmS-gR-sk8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1578" y="65"/>
+            <point key="canvasLocation" x="-1441" y="152"/>
         </scene>
     </scenes>
     <resources>
@@ -224,7 +248,7 @@
             <color red="0.99000000953674316" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="button_color">
-            <color red="0.0" green="0.58385175469999995" blue="0.96595126389999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.58399999141693115" blue="0.9660000205039978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
