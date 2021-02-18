@@ -13,6 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        // 로딩 화면을 0.6초간 유지해준다.
+        Thread.sleep(forTimeInterval: 0.6)
+        
         // Override point for customization after application launch.
         return true
     }
