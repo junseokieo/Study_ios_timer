@@ -231,7 +231,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1743" y="283"/>
+            <point key="canvasLocation" x="-2121" y="332"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="zGg-do-MXB">
+            <objects>
+                <viewController id="d6B-2U-4Fh" customClass="TestViewController" customModule="Study_timer_js" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fx7-F4-dPm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간 조정 화면입니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bil-1x-NcI">
+                                <rect key="frame" x="61" y="315.5" width="253.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JiY-sS-PVQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Bil-1x-NcI" firstAttribute="centerX" secondItem="fx7-F4-dPm" secondAttribute="centerX" id="EbB-dk-LrV"/>
+                            <constraint firstItem="Bil-1x-NcI" firstAttribute="centerY" secondItem="fx7-F4-dPm" secondAttribute="centerY" id="YIJ-Ck-KvV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="test_label" destination="Bil-1x-NcI" id="ifF-gA-A3t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFz-qo-5ix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1337" y="339"/>
         </scene>
     </scenes>
     <resources>
