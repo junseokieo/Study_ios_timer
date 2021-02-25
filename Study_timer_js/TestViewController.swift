@@ -11,22 +11,20 @@ class TestViewController: UIViewController {
 
     @IBOutlet weak var test_label: UILabel!
     
-    
     override func viewDidLoad() {
+        //test_label.alpha = 0
+        test_label.transform = CGAffineTransform(translationX: 30, y: 0)
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func button_animation(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.5,
+                       animations:{
+            //self.test_label.alpha = 1000
+            self.test_label.transform = CGAffineTransform(translationX: 0, y: 0)
+        })
     }
-    */
+    
+    
 
 }
