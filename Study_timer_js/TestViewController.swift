@@ -13,7 +13,8 @@ class TestViewController: UIViewController {
     
     override func viewDidLoad() {
         //test_label.alpha = 0
-        test_label.transform = CGAffineTransform(translationX: 30, y: 0)
+        //test_label.transform = CGAffineTransform(translationX: 0, y: 50)
+        self.test_label.transform = CGAffineTransform(scaleX: 1, y: 1)
         super.viewDidLoad()
     }
     
@@ -21,7 +22,8 @@ class TestViewController: UIViewController {
         UIView.animate(withDuration: 0.5,
                        animations:{
             //self.test_label.alpha = 1000
-            self.test_label.transform = CGAffineTransform(translationX: 0, y: 0)
+            //self.test_label.transform = CGAffineTransform(translationX: 0, y: 0)
+                        self.test_label.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
         })
     }
     
