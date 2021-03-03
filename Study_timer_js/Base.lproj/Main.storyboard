@@ -282,10 +282,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="총 목표 시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yhb-1h-HpR">
-                                <rect key="frame" x="132.5" y="40" width="110" height="27.5"/>
+                                <rect key="frame" x="132.5" y="85" width="110" height="27.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="IgX-0P-gP8"/>
                                     <constraint firstAttribute="width" constant="110" id="nTb-jv-ABd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHz-qA-VYw">
+                                <rect key="frame" x="132.5" y="120.5" width="110" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="NQw-yh-H5D"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
@@ -295,14 +304,16 @@
                         <viewLayoutGuide key="safeArea" id="VSD-dS-x3x"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="CHz-qA-VYw" firstAttribute="centerX" secondItem="88o-Cn-dvT" secondAttribute="centerX" id="Csf-An-Sxs"/>
+                            <constraint firstItem="CHz-qA-VYw" firstAttribute="top" secondItem="Yhb-1h-HpR" secondAttribute="bottom" constant="8" id="Eun-fm-q8U"/>
                             <constraint firstItem="Yhb-1h-HpR" firstAttribute="centerX" secondItem="88o-Cn-dvT" secondAttribute="centerX" id="Fb9-TF-jQm"/>
-                            <constraint firstItem="Yhb-1h-HpR" firstAttribute="top" secondItem="VSD-dS-x3x" secondAttribute="top" constant="40" id="cEb-Yt-vbu"/>
+                            <constraint firstItem="Yhb-1h-HpR" firstAttribute="top" secondItem="VSD-dS-x3x" secondAttribute="top" constant="85" id="u1b-BW-3Gb"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rtc-JK-kic" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1452" y="331"/>
+            <point key="canvasLocation" x="-1452" y="330.58470764617692"/>
         </scene>
     </scenes>
     <resources>
