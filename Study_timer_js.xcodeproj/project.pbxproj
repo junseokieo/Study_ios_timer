@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652FE55D25F51A6000A9D50E /* setTime_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FE55C25F51A6000A9D50E /* setTime_ViewController.swift */; };
 		6558AE8B25D2EBAB008AF75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6558AE8A25D2EBAB008AF75E /* AppDelegate.swift */; };
 		6558AE8D25D2EBAB008AF75E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6558AE8C25D2EBAB008AF75E /* SceneDelegate.swift */; };
 		6558AE8F25D2EBAB008AF75E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6558AE8E25D2EBAB008AF75E /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652FE55C25F51A6000A9D50E /* setTime_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTime_ViewController.swift; sourceTree = "<group>"; };
 		6558AE8725D2EBAB008AF75E /* Study_timer_js.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_timer_js.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6558AE8A25D2EBAB008AF75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6558AE8C25D2EBAB008AF75E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				6558AE8C25D2EBAB008AF75E /* SceneDelegate.swift */,
 				6558AE8E25D2EBAB008AF75E /* ViewController.swift */,
 				6558AE9025D2EBAB008AF75E /* Main.storyboard */,
+				652FE55C25F51A6000A9D50E /* setTime_ViewController.swift */,
 				65829BE325E7EC34007D9414 /* TestViewController.swift */,
 				6558AE9325D2EBAC008AF75E /* Assets.xcassets */,
 				6558AE9525D2EBAC008AF75E /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 				6558AE8B25D2EBAB008AF75E /* AppDelegate.swift in Sources */,
 				65829BE425E7EC34007D9414 /* TestViewController.swift in Sources */,
 				6558AE8D25D2EBAB008AF75E /* SceneDelegate.swift in Sources */,
+				652FE55D25F51A6000A9D50E /* setTime_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
